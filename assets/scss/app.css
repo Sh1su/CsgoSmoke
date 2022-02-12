@@ -1,0 +1,33 @@
+/*@import "@/assets/scss/utilities/_all.css";*/
+@import "@/assets/scss/base/_all.css";
+@import "@/assets/scss/element/_all.css";
+.wrapper{
+    background: #192428;
+    min-height: 100vh;
+}
+
+@media screen and (min-width: 769px){
+    .columns {
+        display: flex;
+    } 
+}
+.column {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+}
+.column .columns .column{
+    padding: 0;
+}
+.height-full{
+    height: 100%;
+}
+
+.columns.is-direction-col{
+    flex-direction: column;
+    gap: 1em;
+}
+
+

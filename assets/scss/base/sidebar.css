@@ -1,0 +1,83 @@
+.wrapper .sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10em;
+  }
+  .wrapper .sidebar .sidebar__item{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    background: #2d383c;
+    padding: 0.6em 1.5em;
+    border-radius: 0.2em;
+    border-bottom: 1px solid #192428;
+    transition: background 0.5s ease;
+  }
+  .wrapper .sidebar .sidebar__item span{
+    color: #fff;
+  }
+  .wrapper .sidebar .sidebar__item:first-child{
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+  }
+  .wrapper .sidebar .sidebar__item:last-child{
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    border:0;
+  }
+  .wrapper .sidebar .sidebar__item:hover,.wrapper .sidebar .sidebar__item.active{
+    background: #161f22;
+  }
+  .wrapper .subsidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    justify-content: center;
+    margin-left: 1em;
+  }
+  .wrapper .subsidebar__item__group{
+    border: 1px solid;
+    border-radius: 5px;
+  }
+  .wrapper .subsidebar__item__btn, .wrapper .subsidebar__item__group__btn {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+  }
+  .wrapper .subsidebar__item__btn{
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+  .wrapper .subsidebar__item__btn:hover, .wrapper .subsidebar__item__group__btn:hover{
+    background: #2d383c;
+  }
+  .wrapper .subsidebar__item__btn.active, .wrapper .subsidebar__item__group__btn.active{
+    background: #2d383c;
+  }
+  .wrapper .subsidebar__item--title{
+    color: #fff;
+    text-align: center;
+  }
+  .wrapper .subsidebar__item__group__btn {    
+    border-bottom: 1px solid #2d383c;
+  }
+  .wrapper .subsidebar__item__group__btn:last-child{
+    border: 0;
+  }
+  .wrapper .subsidebar__item__group__btn:hover{
+    background: #2d383c;
+  }
+  .wrapper .subsidebar__item__group__btn.active{
+    background: #2d383c;
+  }
+  .wrapper .subsidebar__item__btn--icon,.wrapper .subsidebar__item__group__btn--icon{
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+  }

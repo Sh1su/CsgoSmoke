@@ -1,0 +1,60 @@
+a{
+    text-decoration: none;
+    color: red;
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+body, p, ul, blockquote,h1,h2,h3,h4,h5,h6,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+blockquote{
+    background-color: #192428;
+    padding: 0.9em 1.5em;
+    border-radius: 0.5em;
+    margin: 0.5em 0;
+}
+p,span,h1,h2,h3,h4,h5,h6,i,b,blockquote,li, .wrapper .subsidebar__item__btn, .subsidebar__item--title{
+    font-family: sans-serif, Arial, Helvetica;
+    color: #fff;
+}
+
+.is-flex{
+    display: flex;
+}
+
+.is-flex.is-direction-col{
+    flex-direction: column;
+}
+.is-flex.is-direction-row{
+    flex-direction: row;
+}
+
+.is-flex.is-direction-row.is-full-center{
+    justify-content: center;
+    align-items: center;
+}
+.is-flex.is-direction-col.is-full-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.is-flex.is-direction-col.is-horizontal-center{
+    align-items: center;
+}
+
+.is-flex.is-direction-row.is-horizontal-center{
+    justify-content: center;
+}
+
+.is-flex.is-direction-col.is-vertical-center{
+    justify-content: center;
+}
+
+.is-flex.is-direction-row.is-vertical-center{
+    align-items: center;
+}

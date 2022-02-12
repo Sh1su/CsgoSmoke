@@ -1,0 +1,14 @@
+.card-group{
+    display: flex;
+    gap: 1em;
+}
+.card{
+    width: 100%;
+    background: #202d32;
+    box-shadow: 0px 0px 5px 1px #00000042;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+.card--img{
+    max-width: 400px;
+}

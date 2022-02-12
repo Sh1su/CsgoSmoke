@@ -1,0 +1,35 @@
+.map .nade .nade__number{
+    font-family: fantasy;
+    font-size: 17pt;
+    text-shadow: 0px 2px 4px black;
+}
+.map.Dust2{
+    background-image: url("~/assets/media/maps/dust2.jpg");
+}
+.map.Mirage{
+    background-image: url("~/assets/media/maps/mirage.jpg");
+}
+.map.Inferno{
+    background-image: url("~/assets/media/maps/inferno.jpg");
+}
+.map.Overpass{
+    background-image: url("~/assets/media/maps/overpass.jpg");
+}
+.map.Nuke{
+    background-image: url("~/assets/media/maps/nuke.jpg");
+}
+.map.Vertigo{
+    background-image: url("~/assets/media/maps/vertigo.jpg");
+}
+.map.Ancient{
+    background-image: url("~/assets/media/maps/ancient.jpg");
+}
+
+.map .point{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #03a9f4;
+    border: 1px solid black;
+    position: absolute;
+}
